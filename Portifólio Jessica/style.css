@@ -1,0 +1,23 @@
+body {
+  background-color: #E0CADC;
+}
+
+#style-name {
+  text-decoration: overline;
+}
+
+#style-description {
+  font-family:Arial, Helvetica, sans-serif
+}
+
+#empatia {
+  font-size: 20px;
+}
+
+#inteligencia {
+  font-size: 30px;
+}
+
+#flexibilidade {
+  font-size: 40px;
+}
