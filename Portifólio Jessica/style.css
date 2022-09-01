@@ -4,10 +4,12 @@ body {
 
 #style-name {
   text-decoration: overline;
+  text-align: center;
 }
 
 #style-description {
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
 #empatia {
@@ -20,4 +22,25 @@ body {
 
 #flexibilidade {
   font-size: 40px;
+}
+
+img {
+  float: left;
+  padding:10px; background-color: palevioletred;
+}
+
+.description-foto {
+  height: 300px;
+}
+
+div {
+  padding: 10px;
+  margin:auto;
+}
+
+#description-foto {
+  margin-top: 20px;
+  padding: 20px;
+  white-space: normal;
+  text-justify: center;
 }
