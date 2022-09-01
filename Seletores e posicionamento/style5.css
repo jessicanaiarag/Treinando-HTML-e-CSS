@@ -1,0 +1,58 @@
+ol li:nth-child(odd) {
+  background-color: yellow;
+  text-transform: lowercase;
+}
+
+ol li:nth-child(even) {
+  background-color: green;
+  text-transform: lowercase;
+}
+
+h1, h2 {
+  color: red;
+} 
+
+h1 em, h2 em {
+  border: 1px solid; color: black;
+  font-size: 40px;
+} 
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: 600;
+}
+
+#programação li:not(:nth-child(n + 4)) {
+  color: blue;
+}
+
+.rosa {
+  background-color: pink;
+}
+
+.sites:hover {
+  font-weight: bold;
+}
+
+.sites a[href*="stackoverflow"] {
+  color: orange;
+}
+
+.sites a[href*="w3schools"] {
+  color: green;
+}
+
+.sites a[href*="mozilla"] {
+  color: black;
+}
+
+.sites a[href*="devdocs"] {
+  color: yellow;
+}
+
+.sites a[href*="trybe"] {
+  color: green;
+}
